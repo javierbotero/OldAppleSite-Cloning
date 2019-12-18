@@ -19,7 +19,7 @@ a {
 main {
   max-width: 1440px;
   margin: 0 auto;
-  background: url("/assets/images/hiking-mountain.jpg") 50% 100% no-repeat;
+  background: url("https://archive.md/UW4oR/c737ac2a39d31e8407c5d08a73daddc5ddcf5d3e.jpg") 50% 100% no-repeat;
   height: 647px;
   background-size: 1440px 1315px;
 }
@@ -68,7 +68,7 @@ aside {
 }
 
 footer {
-  max-width: 1000px;
+  max-width: 1100px;
   height: 90px;
   margin: 0 auto;
   position: relative;
@@ -93,14 +93,14 @@ li a {
 #text1 {
   display: inline-block;
   overflow: hidden;
-  height: 40%;
+  height: 32%;
 }
 
 #text3 {
   margin-top: 15px;
   height: 12%;
   display: inline-block;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .display-flex {
@@ -149,10 +149,11 @@ aside li {
 
 .info-bottom a {
   color: #08c;
+  font: 11px 'Nanum Gothic', Helvetica, Arial, Verdana, sans-serif;
 }
 
 .text-bottom {
-  font: 0.6334em 'Nanum Gothic', Helvetica, Arial, Verdana, sans-serif;
+  font: 11px 'Nanum Gothic', Helvetica, Arial, Verdana, sans-serif;
   color: #6e6e6e;
 }
 

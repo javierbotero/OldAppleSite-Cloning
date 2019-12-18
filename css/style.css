@@ -87,6 +87,7 @@ li a {
 #searchBar {
   margin: 0 8px;
   border-radius: 15px;
+  background-color: transparent;
 }
 
 #text1 {
@@ -127,7 +128,7 @@ nav li {
   float: right;
   flex: 1.3;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAAzklEQVQYlWNgAIP%2F9v%2FrwVCfARn85%2F%2B%2F%2Fz8CzEeS%2BnMQJPL0%2Ba37796DJfsZ4EYBwar9DBkMCQwFR86DJeXBUo%2F6QToYHCAKtaO%2Bf%2F%2F%2F%2F3kmmHNm%2Fv%2F%2FD27CTee4c%2Ff%2F%2F2vT4VKfXiM5CQg2t4M5lckQd%2F3nB0n8vQji5HhCFEpArP73AeGF35dACkEgYPtxmODXnxueg2igbqikh3l%2F1%2FpV%2B7vWyzUwxHatB%2BvcBLNfgMEA6AEDBg4g26Br%2FffvqeUMWIEBULcEdikGkG4AzGOfgUQC7TUAAAAASUVORK5CYII%3D);
-  background-position: 50% 50%;
+  background-position: 10% 55%;
   background-repeat: no-repeat;
 }
 

@@ -37,7 +37,7 @@ nav {
     linear-gradient(
       to top,
       rgba(220, 220, 220, 0.5),
-      rgba(150, 150, 150, 0.5) 30%
+      rgba(150, 150, 150, 0.5) 20%
     ),
     linear-gradient(
       to right,
@@ -48,16 +48,16 @@ nav {
       to top,
       rgba(200, 200, 200, 0),
       rgba(200, 200, 200, 0) 50%,
-      rgba(200, 200, 200, 0.5) 51%
+      rgba(240, 240, 240, 0.5) 51%
     )
-    rgb(80, 80, 80);
+    rgb(40, 40, 40);
 }
 
 header {
-  max-width: 800px;
-  height: 235px;
+  max-width: 980px;
+  height: 300px;
   margin: 50px auto;
-  margin-top: -285px;
+  margin-top: 190px;
   display: flex;
   flex-direction: column;
 }
@@ -82,6 +82,7 @@ span {
 li a {
   color: white;
   font: 12px Verdana, sans-serif;
+  text-align: center;
 }
 
 #searchBar {
@@ -98,7 +99,7 @@ li a {
 
 #text3 {
   margin-top: 15px;
-  height: 12%;
+  height: 11%;
   display: inline-block;
   overflow: hidden;
 }
@@ -118,7 +119,7 @@ nav li {
 }
 
 #appleLogo {
-  background-image: url("/assets/images/logoApple.png");
+  background-image: url("https://archive.md/UW4oR/d800d4d3076695e798eda59b0a90e2d80a67ba02.png");
   background-position-y: 0%;
   background-position-x: 50%;
   border-left: transparent;
@@ -180,11 +181,6 @@ footer img {
 
   nav {
     width: 85%;
-  }
-
-  header {
-    width: 70%;
-    height: 9.5%;
   }
 
   #text1 {

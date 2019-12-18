@@ -2,7 +2,7 @@
 
 > This project is about cloning an old Apple page using the properties flexbox and float. The main purpose is to set the layout and visual aspect as in this example of the [Old Apple page](http://archive.md/UW4oR). 
 
-![screenshot](/assets/images/screenShot.png)
+![screenshot](/assets/images/OldApplePageScreenShot.png)
 
 ## Built With
 

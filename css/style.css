@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: url("https://archive.md/UW4oR/c737ac2a39d31e8407c5d08a73daddc5ddcf5d3e.jpg") 50% 100% no-repeat;
+  height: 647px;
+  background-size: 1440px 1315px;
+}
+
+nav {
+  max-width: 980px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  top: 83px;
+  height: 36px;
+  border-radius: 8px;
+  background: rgb(100, 100, 100);
+  background:
+    linear-gradient(
+      to top,
+      rgba(220, 220, 220, 0.5),
+      rgba(150, 150, 150, 0.5) 20%
+    ),
+    linear-gradient(
+      to right,
+      rgba(100, 100, 100, 0.5),
+      rgba(250, 250, 250, 0.5)
+    ),
+    linear-gradient(
+      to top,
+      rgba(200, 200, 200, 0),
+      rgba(200, 200, 200, 0) 50%,
+      rgba(240, 240, 240, 0.5) 51%
+    )
+    rgb(40, 40, 40);
+}
+
+header {
+  max-width: 980px;
+  height: 300px;
+  margin: 50px auto;
+  margin-top: 190px;
+  display: flex;
+  flex-direction: column;
+}
+
+aside {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+footer {
+  max-width: 1100px;
+  height: 90px;
+  margin: 0 auto;
+  position: relative;
+}
+
+span {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+li a {
+  color: white;
+  font: 12px Verdana, sans-serif;
+  text-align: center;
+}
+
+#searchBar {
+  margin: 0 8px;
+  border-radius: 15px;
+  background-color: transparent;
+}
+
+#text1 {
+  display: inline-block;
+  overflow: hidden;
+  height: 32%;
+}
+
+#text3 {
+  margin-top: 15px;
+  height: 11%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.display-flex {
+  display: flex;
+  flex: 1;
+  align-content: stretch;
+}
+
+nav li {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid gray;
+}
+
+#appleLogo {
+  background-image: url("https://archive.md/UW4oR/d800d4d3076695e798eda59b0a90e2d80a67ba02.png");
+  background-position-y: 0%;
+  background-position-x: 50%;
+  border-left: transparent;
+}
+
+#search-bar {
+  float: right;
+  flex: 1.3;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAAzklEQVQYlWNgAIP%2F9v%2FrwVCfARn85%2F%2B%2F%2Fz8CzEeS%2BnMQJPL0%2Ba37796DJfsZ4EYBwar9DBkMCQwFR86DJeXBUo%2F6QToYHCAKtaO%2Bf%2F%2F%2F%2F3kmmHNm%2Fv%2F%2FD27CTee4c%2Ff%2F%2F2vT4VKfXiM5CQg2t4M5lckQd%2F3nB0n8vQji5HhCFEpArP73AeGF35dACkEgYPtxmODXnxueg2igbqikh3l%2F1%2FpV%2B7vWyzUwxHatB%2BvcBLNfgMEA6AEDBg4g26Br%2FffvqeUMWIEBULcEdikGkG4AzGOfgUQC7TUAAAAASUVORK5CYII%3D);
+  background-position: 10% 55%;
+  background-repeat: no-repeat;
+}
+
+aside ul {
+  display: flex;
+}
+
+aside li {
+  display: inline-block;
+}
+
+.info-bottom {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 15px auto;
+}
+
+.info-bottom a {
+  color: #08c;
+  font: 11px 'Nanum Gothic', Helvetica, Arial, Verdana, sans-serif;
+}
+
+.text-bottom {
+  font: 11px 'Nanum Gothic', Helvetica, Arial, Verdana, sans-serif;
+  color: #6e6e6e;
+}
+
+.text-bottom a {
+  color: #08c;
+}
+
+footer li {
+  float: left;
+  display: inline;
+}
+
+footer img {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (max-width: 979px) {
+  main,
+  aside,
+  footer {
+    width: 90%;
+  }
+
+  nav {
+    width: 85%;
+  }
+
+  #text1 {
+    height: 76px;
+  }
+
+  #text3 {
+    height: 22px;
+  }
+}
